@@ -1,0 +1,17 @@
+.hero-sub-container {
+  width: 50%;
+}
+
+.hero-image {
+  width: 300px;
+}
+
+@media (max-width: 600px) {
+  .hero-container {
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+  .hero-sub-container {
+    width: 100%;
+  }
+}

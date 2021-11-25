@@ -1,0 +1,6 @@
+.icon-button {
+  padding: var(--spacing) !important;
+  min-height: 24px;
+  min-width: 24px;
+  border-radius: 50% !important;
+}

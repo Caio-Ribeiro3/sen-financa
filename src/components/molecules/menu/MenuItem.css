@@ -1,0 +1,7 @@
+.menu-options-option {
+  cursor: pointer;
+}
+
+.menu-options-option:hover {
+  opacity: 0.5;
+}

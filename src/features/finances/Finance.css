@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  .finance-container {
+    overflow-x: auto;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+}

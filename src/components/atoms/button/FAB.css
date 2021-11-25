@@ -1,0 +1,8 @@
+.FAB {
+  position: sticky;
+  bottom: calc(var(--spacing) * 8);
+  left: calc(100vw - 48px - var(--spacing) * 8);
+  box-shadow: var(--shadow);
+  min-height: 48px !important;
+  min-width: 48px !important;
+}

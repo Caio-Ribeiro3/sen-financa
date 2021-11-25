@@ -1,0 +1,7 @@
+.data-table-columns-item {
+  color: var(--on-background-color);
+}
+
+.data-table-columns-item:not(:last-child) {
+  border-right: var(--border);
+}

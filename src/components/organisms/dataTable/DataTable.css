@@ -1,0 +1,13 @@
+.data-table-container > * {
+  border-bottom: var(--border);
+}
+
+.data-table-container > *:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  .data-table-container-width {
+    width: max-content;
+  }
+}

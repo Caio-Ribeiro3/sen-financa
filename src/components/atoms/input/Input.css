@@ -1,0 +1,7 @@
+.input-container {
+  min-width: 200px;
+}
+
+.input {
+  outline-color: var(--primary-color);
+}

@@ -1,0 +1,25 @@
+.button {
+  padding: var(--spacing) calc(var(--spacing) * 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: var(--border-radius);
+}
+
+.button-pallete-primary {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+  border-color: var(--primary-color);
+}
+
+.button-pallete-secondary {
+  background-color: var(--border-color);
+  color: var(--secondary-text-color);
+  border-color: var(--border-color);
+}
+
+.button-variant-outlined {
+  background-color: transparent;
+}
